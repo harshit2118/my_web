@@ -1,0 +1,143 @@
+body{
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+h1{
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    padding-top: 240px;
+}
+h1.top_text{
+    font-family: Brush Script MT,cursive; 
+    font-size: 76px;
+}
+p.top_text{
+    font-family: Papyrus, fantasy;
+}
+.top_text_initials{
+    color: red;
+    font-size: 40px;
+}
+#top_scene{
+    height: 800px;
+    background-color: rgba(243, 207, 114, 0.974);
+    position: relative;
+    text-align: center;
+    border-radius: 10px;
+}
+#hill{
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+}
+#hut{
+    position: absolute;
+    bottom: 12%;
+    left: 10%;
+    height: 350px;
+    width: 400px;
+}
+#cloud1,#cloud2,#cloud3{
+    display: none;
+}
+#cloud1{
+    width: 200px;
+    height: 120px;
+    display: inline-block;
+    position: absolute;
+    top:10%;
+    left:15%;
+}
+#cloud2{
+    display: inline;
+    position: absolute;
+    width: 250px;
+    height: 170px;
+    bottom: 40%;
+    opacity: .6;
+    right:13%
+}
+#middle_scene{
+    position: relative;
+    background-color: rgba(146, 253, 253, 0.844);
+    height: 4800px;
+}
+.s_rows_l,.s_rows_r{
+    position: relative;
+    width: 100%;
+    margin: auto;
+    padding: 100px;
+    padding-top: 400px;
+    height: 400px;
+}
+.s_rows_l{
+    margin-left: 1%;
+    padding-left: 300px;
+}
+.right_text_block{
+    position: absolute;
+    height: 300px;
+    width: 600px;
+    padding: 20px;
+    text-align: center;
+    font-size: 35px;
+    opacity: 0;
+}
+.left_text_block{
+    position: absolute;
+    height: 300px;
+    width: 600px;
+    padding: 20px;
+    text-align: center;
+    font-size: 35px;
+    opacity: 0;
+}
+.s_rows_l:hover > .right_text_block{
+    background-color: brown;
+    color: white;
+    transition: 2s;
+    opacity: 1;
+    left: 50%;
+    top: 30%;
+    border-radius: 20px;
+}
+.s_rows_r{
+    margin-right: 1%;
+}
+.s_rows_r:hover > .left_text_block{
+    background-color: brown;
+    color: white;
+    transition: 2s;
+    opacity: 1;
+    left: 10%;
+    top: 30%;
+    border-radius: 20px;
+}
+.left,.right{
+    width: 360px;
+    height: 360px;
+    position: absolute;
+    top: 30%
+}
+.right{
+    position: absolute;
+    right: 20%;
+}
+hr.top_scene{
+    position: absolute;
+    bottom: 1%;
+    left: 45%;
+    border-style: none;
+    border-top-style: dotted;
+    width: 5%;
+    border-color: red;
+ }
