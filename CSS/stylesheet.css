@@ -123,13 +123,15 @@ p.top_text{
     border-radius: 20px;
 }
 .left,.right{
-    width: 360px;
-    height: 360px;
+    width: 25%;
+    height: 25%;
     position: absolute;
     top: 30%
 }
+.left{
+   left: 1%;
+}
 .right{
-    position: absolute;
     right: 20%;
 }
 hr.top_scene{
