@@ -64,15 +64,17 @@ p.top_text{
     right:13%
 }
 #profile{
-    height:700px;
+    height:1000px;
     width: 100%;
     position: relative;
-    background-color: #004445;
+    background-image: url("https://cdn.pixabay.com/photo/2019/12/22/07/34/forest-4711958_960_720.jpg");
+    background-repeat: no-repeat;
+    background-size:100% 1000px;
 }
 .photo_frame{
     position: absolute;
     width: 300px;
-    height: 700px;
+    height: 1000px;
     left: 45%;
     right: 45%;
     background-color:#6FB98F ;
@@ -83,18 +85,19 @@ p.top_text{
     height: 300px;
     left: 45%;
     right: 45%;
+    top:8%;
     border-radius: 100%;
 }
 .profile_text_box{
     position: absolute;
     left: 33.6%;
-    top: 320px;
+    top: 420px;
     width: 700px;
-    height: 320px;
+    height: 420px;
     border-radius: 30px;
     padding: 20px;
     text-align: center;
-    font-size: 30px;
+    font-size: 35px;
     line-height: 1.4;
     background-color: #021C1E;
     color: white;
