@@ -26,7 +26,7 @@ p.top_text{
     font-size: 40px;
 }
 #top_scene{
-    height: 800px;
+    height: 1080px;
     background-color: rgba(243, 207, 114, 0.974);
     position: relative;
     text-align: center;
@@ -46,9 +46,6 @@ p.top_text{
     height: 350px;
     width: 400px;
 }
-#cloud1,#cloud2,#cloud3{
-    display: none;
-}
 #cloud1{
     width: 200px;
     height: 120px;
@@ -65,6 +62,42 @@ p.top_text{
     bottom: 40%;
     opacity: .6;
     right:13%
+}
+#profile{
+    height:700px;
+    width: 100%;
+    position: relative;
+    background-color: #004445;
+}
+.photo_frame{
+    position: absolute;
+    width: 300px;
+    height: 700px;
+    left: 45%;
+    right: 45%;
+    background-color:#6FB98F ;
+}
+.my_photo{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 45%;
+    right: 45%;
+    border-radius: 100%;
+}
+.profile_text_box{
+    position: absolute;
+    left: 33.6%;
+    top: 320px;
+    width: 700px;
+    height: 320px;
+    border-radius: 30px;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 1.4;
+    background-color: #021C1E;
+    color: white;
 }
 #middle_scene{
     position: relative;
@@ -92,6 +125,24 @@ p.top_text{
     font-size: 35px;
     opacity: 0;
 }
+.right_text_block.web{
+    position: absolute;
+    height: 380px;
+    width: 600px;
+    padding: 20px;
+    text-align: center;
+    font-size: 35px;
+    opacity: 0;
+}  
+.web{
+    position: absolute;
+    height: 350px;
+    width: 600px;
+    padding: 20px;
+    text-align: center;
+    font-size: 35px;
+    opacity: 0;
+}
 .left_text_block{
     position: absolute;
     height: 300px;
@@ -102,6 +153,15 @@ p.top_text{
     opacity: 0;
 }
 .s_rows_l:hover > .right_text_block{
+    background-color: brown;
+    color: white;
+    transition: 2s;
+    opacity: 1;
+    left: 50%;
+    top: 30%;
+    border-radius: 20px;
+}
+.s_rows_l:hover > .web{
     background-color: brown;
     color: white;
     transition: 2s;
@@ -123,15 +183,13 @@ p.top_text{
     border-radius: 20px;
 }
 .left,.right{
-    width: 25%;
-    height: 25%;
+    width: 360pxgi;
+    height: 360px;
     position: absolute;
     top: 30%
 }
-.left{
-   left: 1%;
-}
 .right{
+    position: absolute;
     right: 20%;
 }
 hr.top_scene{
@@ -142,4 +200,13 @@ hr.top_scene{
     border-top-style: dotted;
     width: 5%;
     border-color: red;
+ }
+ hr.middle_box{
+    position: absolute;
+    bottom: 1%;
+    left: 45%;
+    border-style: none;
+    border-top-style: dotted;
+    width: 5%;
+    border-color: grey;
  }
