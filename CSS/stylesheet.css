@@ -137,15 +137,6 @@ p.top_text{
     font-size: 35px;
     opacity: 0;
 }  
-.web{
-    position: absolute;
-    height: 350px;
-    width: 600px;
-    padding: 20px;
-    text-align: center;
-    font-size: 35px;
-    opacity: 0;
-}
 .left_text_block{
     position: absolute;
     height: 300px;
@@ -155,10 +146,20 @@ p.top_text{
     font-size: 35px;
     opacity: 0;
 }
+.left_text_block.git{
+    position: absolute;
+    height: 350px;
+    width: 750px;
+    padding: 30px;
+    padding-bottom: 60px;
+    text-align: center;
+    font-size: 35px;
+    opacity: 0;
+}
 .s_rows_l:hover > .right_text_block{
     background-color: brown;
     color: white;
-    transition: 2s;
+    transition: 1s;
     opacity: 1;
     left: 50%;
     top: 30%;
@@ -167,7 +168,7 @@ p.top_text{
 .s_rows_l:hover > .web{
     background-color: brown;
     color: white;
-    transition: 2s;
+    transition: 1s;
     opacity: 1;
     left: 50%;
     top: 30%;
@@ -179,7 +180,16 @@ p.top_text{
 .s_rows_r:hover > .left_text_block{
     background-color: brown;
     color: white;
-    transition: 2s;
+    transition: 1s;
+    opacity: 1;
+    left: 10%;
+    top: 30%;
+    border-radius: 20px;
+}
+.s_rows_r:hover > .git{
+    background-color: brown;
+    color: white;
+    transition: 1s;
     opacity: 1;
     left: 10%;
     top: 30%;
