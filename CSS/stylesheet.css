@@ -105,7 +105,7 @@ p.top_text{
 #middle_scene{
     position: relative;
     background-color: rgba(146, 253, 253, 0.844);
-    height: 4800px;
+    height: 3700px;
 }
 .s_rows_l,.s_rows_r{
     position: relative;
@@ -223,3 +223,82 @@ hr.top_scene{
     width: 5%;
     border-color: grey;
  }
+ 
+/*@media (max-width:1080px){
+    .photo_frame{
+        position: absolute;
+        width: 300px;
+        height: 1000px;
+        margin: auto 0 auto 0;
+        background-color:#6FB98F ;
+    }
+    .profile_text_box{
+        position: absolute;
+        margin: auto 0 auto 0;
+        width: 500px;
+        height: 420px;
+        border-radius: 30px;
+        padding: 20px;
+        text-align: center;
+        font-size: 31px;
+        line-height: 1.4;
+        background-color: #021C1E;
+        color: white;
+    }
+    .s_rows_l,.s_rows_r{
+        position: relative;
+        width: 100%;
+        margin: auto 0 auto 0;
+        padding: 100px;
+        padding-top: 400px;
+        height: 400px;
+    }
+    .left,.right{
+        width: 240px;
+        height: 240px;
+        position: absolute;
+        left: 35%;
+    }
+    .left_text_block, .right_text_block{
+        position: absolute;
+        width:  400px;
+        height: 350px;
+        font-size: 31px;
+        padding: 10px;
+    }
+    .s_rows_l:hover > .right_text_block{
+        margin: 0 auto 0 auto;
+        background-color: brown;
+        color: white;
+        transition: 1s;
+        opacity: .9;
+        border-radius: 20px;
+    }
+    .s_rows_l:hover > .web{
+        background-color: brown;
+        color: white;
+        transition: 1s;
+        opacity: 1;
+        left: 50%;
+        top: 30%;
+        border-radius: 20px;
+    }
+    .s_rows_r:hover > .left_text_block{
+        background-color: brown;
+        color: white;
+        transition: 1s;
+        opacity: 1;
+        left: 10%;
+        top: 30%;
+        border-radius: 20px;
+    }
+    .s_rows_r:hover > .git{
+        background-color: brown;
+        color: white;
+        transition: 1s;
+        opacity: 1;
+        left: 10%;
+        top: 30%;
+        border-radius: 20px;
+    }
+}*/
