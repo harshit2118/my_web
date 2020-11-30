@@ -30,7 +30,6 @@ p.top_text{
     background-color: rgba(243, 207, 114, 0.974);
     position: relative;
     text-align: center;
-    border-radius: 10px;
 }
 #hill{
     width: 100%;
@@ -223,6 +222,24 @@ hr.top_scene{
     width: 5%;
     border-color: grey;
  }
+ .menu_bar{
+    position: relative;
+    background-color: rgba(243, 207, 114, 0.974);
+    padding-left: 80%;
+    padding-top:2%;
+    height: 120px;
+
+}
+.menu_bar_icon{
+    width: 64px;
+    height: 64px;
+    padding-left: 70px;
+    transition: 150ms;
+}
+.menu_bar_icon:hover{
+    width:100px;
+    height: 100px;
+} 
  
 /*@media (max-width:1080px){
     .photo_frame{
