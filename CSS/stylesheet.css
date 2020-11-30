@@ -225,7 +225,7 @@ hr.top_scene{
  .menu_bar{
     position: relative;
     background-color: rgba(243, 207, 114, 0.974);
-    padding-left: 80%;
+    padding-left: 75%;
     padding-top:2%;
     height: 120px;
 
@@ -233,7 +233,7 @@ hr.top_scene{
 .menu_bar_icon{
     width: 64px;
     height: 64px;
-    padding-left: 70px;
+    padding-left: 50px;
     transition: 150ms;
 }
 .menu_bar_icon:hover{
